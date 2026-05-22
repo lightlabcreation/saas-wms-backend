@@ -1,0 +1,2 @@
+ERROR: sequelize is not defined
+ERROR: sequelize is not defined
