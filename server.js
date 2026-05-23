@@ -124,6 +124,12 @@ app.use('/api/returns', returnRoutes);
 
 app.use(routes);
 
+app.get("/", (req, res) => {
+  res.json({
+    status: "API Running",
+    server: "HR Pilot Pro Backend"
+ 
+
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(err.status || 500).json({
