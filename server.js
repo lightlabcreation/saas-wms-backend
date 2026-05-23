@@ -178,6 +178,10 @@ async function start() {
       }
     }
     const syncOptions = { alter: dialect === 'sqlite' };
+
+
+
+
     
     // MySQL Manual Column Fixes helper
     const applyManualFixes = async () => {
